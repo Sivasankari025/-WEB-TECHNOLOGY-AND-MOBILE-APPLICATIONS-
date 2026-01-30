@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Experiment 1</title>
+</head>
+
+<body bgcolor="Plum">
+
+    <h1 align="center">Online Fitness & Health Tracker</h1>
+
+    <p align="center">
+        <i>“The journey of a thousand miles begins with a single step.”</i>
+    </p>
+
+    <br>
+
+    <p align="center">
+        <a href="https://www.google.com/fit/">Click here to explore Google Fit</a>
+    </p>
+
+    <br>
+
+    <center>
+        <!-- Use images in same folder as HTML file -->
+        <img src="C:\Users\sivas\OneDrive\Desktop\FRONTEND\HTML\photos\image 1.jpg" alt="Fitness" width="300" height="300">
+        <img src="C:\Users\sivas\OneDrive\Desktop\FRONTEND\HTML\photos\image2.avif" alt="Workout" width="300" height="300">
+        <img src="C:\Users\sivas\OneDrive\Desktop\FRONTEND\HTML\photos\image 3.jpg" alt="Health" width="300" height="300">
+    </center>
+
+    <br><br>
+
+    <!-- BMI Section -->
+    <div style="background-color: white; width: 400px; margin: auto; padding: 20px; border: 1px solid #ccc;">
+        <h3 align="center">BMI Calculator</h3>
+
+        <form>
+            <label>Height (in cm)</label><br>
+            <input type="number" style="width: 100%; padding: 8px;"><br><br>
+
+            <label>Weight (in kg)</label><br>
+            <input type="number" style="width: 100%; padding: 8px;"><br><br>
+
+            <button type="submit" style="width: 100%; padding: 10px;">
+                Calculate
+            </button>
+        </form>
+
+        <p align="center">
+            BMI = Weight (kg) / Height² (m)
+        </p>
+    </div>
+
+    <br><br>
+
+    <!-- Daily Fitness Checklist -->
+    <div style="background-color: white; width: 420px; margin: auto; padding: 10px;">
+        <h3 align="center">Daily Fitness Checklist</h3>
+
+        <table align="center" cellpadding="10">
+            <tr>
+                <td>Drink 8 Glasses of Water</td>
+                <td align="center"><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Walk 10,000 Steps</td>
+                <td align="center"><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>30 Minutes Workout</td>
+                <td align="center"><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Sleep 8 Hours</td>
+                <td align="center"><input type="checkbox"></td>
+            </tr>
+        </table>
+    </div>
+
+    <br><br>
+
+    <!-- Footer -->
+    <footer>
+        <p align="right">Copyright © <b>Sivasankari</b></p>
+    </footer>
+
+</body>
+</html>
